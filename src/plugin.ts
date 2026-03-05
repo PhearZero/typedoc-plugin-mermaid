@@ -52,7 +52,7 @@ body.dark, :root[data-theme="dark"] {
 function createScript(version: string): string {
   return String.raw`
 <script type="module">
-import mermaid from "https://unpkg.com/mermaid@${version}/dist/mermaid.esm.min.mjs";
+import mermaid from "https://app.unpkg.com/mermaid@${version}/dist/mermaid.esm.min.mjs";
 
 document.documentElement.classList.add("mermaid-enabled");
 
